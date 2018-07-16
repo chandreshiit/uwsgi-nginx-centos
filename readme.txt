@@ -46,6 +46,17 @@ Note: usgi uses "application" to run. Hence don't use this name in main py file.
 Note: nginx communicates to uwsgi via wsgi protocal and sock file. Make sure nginx has read/write/ex permission to that file and parent folders or it will fail
 
 For error related to nginx: see log file at  /var/log/nginx/error.log;
+For granting  nginx access to sock file do this:
+
+see my ans here https://stackoverflow.com/questions/29872174/wsgi-nginx-error-permission-denied-while-connecting-to-upstream/51324847#51324847
+
+sudo usermod -a -G $USER nginx
+
+Now, we can give our user group execute permissions on our home directory. This will allow the Nginx process to enter and access content within:
+
+chmod 710 /path/to/project/dir
+
+If the permission denied error is still there: then the hack sudo setenforce 0 (SELinux issue) will do the trick.
 
 
 7. Create service file to restart uwsgi service during system boot in /etc/systemd/system/
