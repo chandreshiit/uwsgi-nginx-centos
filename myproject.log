@@ -1,0 +1,182 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Jul 13 17:43:47 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 12 July 2018 10:52:50
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Fri Feb 23 18:54:16 UTC 2018
+nodename: oc8451240134.ibm.com
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chandresh/myproject
+detected binary path: /home/chandresh/myproject/myprojectenv/bin/uwsgi
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/chandresh/myproject/myproject.sock fd 3
+Python version: 3.5.2 (default, Feb 16 2018, 15:04:13)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+PEP 405 virtualenv detected: /home/chandresh/myproject/myprojectenv
+Set PythonHome to /home/chandresh/myproject/myprojectenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1073c80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1073c80 pid: 12502 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12502)
+spawned uWSGI worker 1 (pid: 12504, cores: 1)
+spawned uWSGI worker 2 (pid: 12505, cores: 1)
+spawned uWSGI worker 3 (pid: 12506, cores: 1)
+spawned uWSGI worker 4 (pid: 12507, cores: 1)
+spawned uWSGI worker 5 (pid: 12508, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/chandresh/myproject/myproject.sock removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Jul 13 17:49:35 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 12 July 2018 10:52:50
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Fri Feb 23 18:54:16 UTC 2018
+nodename: oc8451240134.ibm.com
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chandresh/myproject
+detected binary path: /home/chandresh/myproject/myprojectenv/bin/uwsgi
+your processes number limit is 29428
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/chandresh/myproject/myproject.sock fd 3
+Python version: 3.5.2 (default, Feb 16 2018, 15:04:13)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+PEP 405 virtualenv detected: /home/chandresh/myproject/myprojectenv
+Set PythonHome to /home/chandresh/myproject/myprojectenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x16b15a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x16b15a0 pid: 12982 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12982)
+spawned uWSGI worker 1 (pid: 13005, cores: 1)
+spawned uWSGI worker 2 (pid: 13006, cores: 1)
+spawned uWSGI worker 3 (pid: 13007, cores: 1)
+spawned uWSGI worker 4 (pid: 13008, cores: 1)
+spawned uWSGI worker 5 (pid: 13009, cores: 1)
+[pid: 13008|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 698 bytes} [Fri Jul 13 17:49:43 2018] GET / => generated 40 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/chandresh/myproject/myproject.sock removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri Jul 13 18:00:24 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 12 July 2018 10:52:50
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Fri Feb 23 18:54:16 UTC 2018
+nodename: oc8451240134.ibm.com
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chandresh/myproject
+detected binary path: /home/chandresh/myproject/myprojectenv/bin/uwsgi
+your processes number limit is 29428
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/chandresh/myproject/myproject.sock fd 3
+Python version: 3.5.2 (default, Feb 16 2018, 15:04:13)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+PEP 405 virtualenv detected: /home/chandresh/myproject/myprojectenv
+Set PythonHome to /home/chandresh/myproject/myprojectenv
+Python main interpreter initialized at 0xb2d5c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 500256 bytes (488 KB) for 10 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xb2d5c0 pid: 13871 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13871)
+spawned uWSGI worker 1 (pid: 13888, cores: 2)
+spawned uWSGI worker 2 (pid: 13889, cores: 2)
+spawned uWSGI worker 3 (pid: 13891, cores: 2)
+spawned uWSGI worker 4 (pid: 13893, cores: 2)
+spawned uWSGI worker 5 (pid: 13896, cores: 2)
+[pid: 13893|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 698 bytes} [Fri Jul 13 18:01:45 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/chandresh/myproject/myproject.sock removed.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Jul 16 11:54:14 2018] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-28) on 12 July 2018 10:52:50
+os: Linux-3.10.0-693.21.1.el7.x86_64 #1 SMP Fri Feb 23 18:54:16 UTC 2018
+nodename: oc8451240134.ibm.com
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chandresh/myproject
+detected binary path: /home/chandresh/myproject/myprojectenv/bin/uwsgi
+your processes number limit is 29428
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/chandresh/myproject/myproject.sock fd 3
+Python version: 3.5.2 (default, Feb 16 2018, 15:04:13)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
+PEP 405 virtualenv detected: /home/chandresh/myproject/myprojectenv
+Set PythonHome to /home/chandresh/myproject/myprojectenv
+Python main interpreter initialized at 0x79e5c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 500256 bytes (488 KB) for 10 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x79e5c0 pid: 20708 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20708)
+spawned uWSGI worker 1 (pid: 20717, cores: 2)
+spawned uWSGI worker 2 (pid: 20718, cores: 2)
+spawned uWSGI worker 3 (pid: 20720, cores: 2)
+spawned uWSGI worker 4 (pid: 20722, cores: 2)
+spawned uWSGI worker 5 (pid: 20724, cores: 2)
+[pid: 20717|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 929 bytes} [Mon Jul 16 11:54:35 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 20722|app: 0|req: 1/2] 127.0.0.1 () {42 vars in 908 bytes} [Mon Jul 16 11:54:37 2018] GET /favicon.ico => generated 233 bytes in 23 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 20722|app: 0|req: 2/3] 127.0.0.1 () {40 vars in 671 bytes} [Mon Jul 16 11:59:55 2018] GET / => generated 40 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (2 switches on core 1)
+[pid: 20722|app: 0|req: 3/4] 127.0.0.1 () {40 vars in 653 bytes} [Mon Jul 16 11:59:56 2018] GET /favicon.ico => generated 233 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 72 bytes (2 switches on core 0)
+[pid: 20718|app: 0|req: 1/5] 127.0.0.1 () {40 vars in 653 bytes} [Mon Jul 16 12:28:55 2018] GET / => generated 40 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 20722|app: 0|req: 4/6] 127.0.0.1 () {40 vars in 626 bytes} [Mon Jul 16 12:28:56 2018] GET /favicon.ico => generated 233 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 20720|app: 0|req: 1/7] 127.0.0.1 () {40 vars in 656 bytes} [Mon Jul 16 12:29:04 2018] GET / => generated 40 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 1)
+[pid: 20724|app: 0|req: 1/8] 127.0.0.1 () {40 vars in 632 bytes} [Mon Jul 16 12:29:05 2018] GET /favicon.ico => generated 233 bytes in 28 msecs (HTTP/1.1 404) 2 headers in 72 bytes (1 switches on core 0)
+[pid: 20718|app: 0|req: 2/9] 127.0.0.1 () {42 vars in 687 bytes} [Mon Jul 16 12:34:27 2018] GET / => generated 40 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 1)
+[pid: 20720|app: 0|req: 2/10] 127.0.0.1 () {42 vars in 687 bytes} [Mon Jul 16 12:35:23 2018] GET / => generated 40 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (2 switches on core 0)
+[pid: 20720|app: 0|req: 3/11] 127.0.0.1 () {46 vars in 771 bytes} [Mon Jul 16 15:12:02 2018] GET / => generated 40 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 1)
+[pid: 20718|app: 0|req: 3/12] 127.0.0.1 () {40 vars in 649 bytes} [Mon Jul 16 15:12:19 2018] GET / => generated 40 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 20722|app: 0|req: 5/13] 127.0.0.1 () {42 vars in 680 bytes} [Mon Jul 16 15:30:21 2018] GET / => generated 40 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (2 switches on core 1)
+[pid: 20718|app: 0|req: 4/14] 127.0.0.1 () {42 vars in 680 bytes} [Mon Jul 16 15:42:55 2018] GET / => generated 40 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 20724|app: 0|req: 2/15] 127.0.0.1 () {42 vars in 680 bytes} [Mon Jul 16 15:43:24 2018] GET / => generated 40 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 79 bytes (2 switches on core 1)
+[pid: 20724|app: 0|req: 3/16] 127.0.0.1 () {42 vars in 680 bytes} [Mon Jul 16 15:43:28 2018] GET / => generated 40 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/chandresh/myproject/myproject.sock removed.
