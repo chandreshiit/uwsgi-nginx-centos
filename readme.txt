@@ -1,4 +1,6 @@
- uwsgi -s ./myproject.sock --wsgi-file wsgi.py -H ./myprojectenv/ --http-processes=4 --chmod-socket=777 --master
+ 
+# added line for develop branch
+uwsgi -s ./myproject.sock --wsgi-file wsgi.py -H ./myprojectenv/ --http-processes=4 --chmod-socket=777 --master
  
  To host nginx service, do the following
  
